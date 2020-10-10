@@ -1,0 +1,51 @@
+/*design by Riverside Bakery CIC (commentaire) */
+
+nav
+{
+	display: inline-block;
+	position: fixed; /*position can be absolute, fixed, or relative*/
+	left: 0px;
+	top: 0px;
+	#float: left;
+	width: 150px;
+	border: 1px solid black;
+	vertical-align: top;
+
+}
+
+section
+{
+	display: inline-block;
+	position: absolute;
+	left: 170px;
+	top: 0px;
+	border:1px solid blue;
+	vertical-align: top;
+	min-width: 70%;
+	margin: auto;
+	
+}
+
+body
+{
+	background-color: #fff4e5;
+	
+}
+
+p
+{	
+	min-width: 600px;
+	width: 900px;
+	#height: 400px;
+	#overflow: auto; /* auto, visible, hidden or scroll when the bloc has got precise dimensions */
+	word-wrap: break-word; /*wrap text */
+	border: 1px solid black;
+	text-align: justify;
+	padding: 8px; /* interior margin */
+	padding-left: 15px;
+	padding-right: 15px;
+	margin:20px; /*outside margin, auto automatically centres the bloc on the page */
+	margin-top: 30px;
+	
+
+}
